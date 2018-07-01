@@ -71,9 +71,13 @@ Player:
 		Name: Medium
 		Prerequisites: techlevel.infonly, techlevel.low, techlevel.medium
 		Id: medium
+	ProvidesTechPrerequisite@high:
+		Name: No Superweapons
+		Prerequisites: techlevel.infonly, techlevel.low, techlevel.medium, techlevel.high
+		Id: nosuperweapons
 	ProvidesTechPrerequisite@unrestricted:
 		Name: Unrestricted
-		Prerequisites: techlevel.infonly, techlevel.low, techlevel.medium, techlevel.unrestricted
+		Prerequisites: techlevel.infonly, techlevel.low, techlevel.medium, techlevel.high, techlevel.unrestricted
 		Id: unrestricted
 	GrantConditionOnPrerequisiteManager:
 	VeteranProductionIconOverlay:

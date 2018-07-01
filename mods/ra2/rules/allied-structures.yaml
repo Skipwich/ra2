@@ -838,7 +838,7 @@ gaweat:
 	Buildable:
 		Queue: Support
 		BuildPaletteOrder: 90
-		Prerequisites: gatech, ~structures.allies
+		Prerequisites: gatech, ~structures.allies, ~techlevel.unrestricted
 		BuildLimit: 1
 		Description: Play God with deadly weather!
 	Selectable:
@@ -869,7 +869,7 @@ gacsph:
 	Buildable:
 		Queue: Support
 		BuildPaletteOrder: 80
-		Prerequisites: gatech, ~structures.allies
+		Prerequisites: gatech, ~structures.allies, ~techlevel.unrestricted
 		BuildLimit: 1
 	Selectable:
 		Bounds: 176, 110, -5, -14
